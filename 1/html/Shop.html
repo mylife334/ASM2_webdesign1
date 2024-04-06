@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop</title>
+    <link rel="stylesheet" href="D:\1\css\Shop.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="nav container">
+                <a href="#" class="logo">
+                    <img src="/img/log2.webp" alt="">
+                </a>
+                <ul class="navbar">
+                    <li><a href="#home1">Home</a></li>
+                    <li><a href="#home">Outstanding</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#buds">Buds</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="Feedback.html">FeedBack</a></li>
+                    <li><a href="Contactform.html">Contact Us</a></li>
+                </ul>
+                <i class="bx bx-shopping-bag" id="cart-icon"></i>
+                <a href="Profile.html"><img src="c:\Users\PC\OneDrive\Pictures\Screenshots\Screenshot 2024-04-02 174750.png" alt="avt"  class="avt"></a>
+                <button class="btn-logout" id="logout-btn"><a href="Login.html">Logout</a></button>
+                <div class="cart">
+                    <div class="cart-title">Your Cart</div>
+                    <div class="cart-content">
+                        <div class="cart-box">
+                        </div>
+                    </div>
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">$0</div>
+                        <button type="button" class="btn-buy">Buy Now</button>
+                        <i class='bx bx-x' id="close-cart"></i>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+
+      <!-- Replace the existing home section with this -->
+      <section class="home1" id="home1">
+        <div class="home-slider-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="D:\ASM_Web\img\hello.png" alt=""></div>
+                <div class="swiper-slide"><img src="" alt=""></div>
+                <div class="swiper-slide"><img src="D:\web_design\img\sl3.png" alt=""></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination" id="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    
+<!-- Thêm vào phần HTML tương ứng -->
+<section class="flashsale">
+    <div class="flashsale-container container">
+        <h2 class="flashsale-heading">Flash Sale</h2>
+        <p class="flashsale-description">Don't miss out on our limited-time offers. Shop now!</p>
+        <div class="flashsale-products">
+            <!-- Thêm sản phẩm flash sale vào đây -->
+            <div class="flashsale-product">
+                <img src="C:\Users\PC\Downloads\kasha.png" alt="Product 1">
+                <h3 class="product-title">Kasha</h3>
+                <span class="product-price">$5</span>
+                <button class="btn-flashsale">Buy Now</button>
+            </div>
+            <div class="flashsale-product">
+                <img src="C:\Users\PC\Downloads\001.png" alt="Product 2">
+                <h3 class="product-title">Chim cổ đỏ</h3>
+                <span class="product-price">$5</span>
+                <button class="btn-flashsale">Buy Now</button>
+            </div>
+            <div class="flashsale-product">
+                <img src="C:\Users\PC\Downloads\caycam.jpg" alt="Product 2">
+                <h3 class="product-title">Cây cam ngọt</h3>
+                <span class="product-price">$5</span>
+                <button class="btn-flashsale">Buy Now</button>
+            </div>
+            <div class="flashsale-product">
+                <img src="D:\ASM_Web\img\haryporter.webp" alt="Product 2">
+                <h3 class="product-title">Harry Potter</h3>
+                <span class="product-price">$5</span>
+                <button class="btn-flashsale">Buy Now</button>
+            </div>
+            <!-- Thêm sản phẩm flash sale khác nếu cần -->
+        </div>
+    </div>
+</section>
+
+
+        <section class="home" id="home">
+            <div class="home-content container">
+                <div class="home-img">
+                    <img src="D:\web_design\img\The Catcher in the Rye.webp" alt="">
+                </div>
+                <div class="home-text">
+                   <h1>The Catcher in the Rye</h1>
+                   <p>A coming-of-age novel that follows Holden Caulfield's journey through adolescence, rebellion, and the search for authenticity.</p>
+                   <a href="#" class="btn">
+                      <i class="bx bx-shopping-bag"></i>
+                      <span>Add To Bag</span>
+                    </a>
+                </div>
+            </div>
+            
+        </section>
+
+        
+        <section class="shop" id="shop">
+            <h2 class="heading">Shop Now</h2>
+            <div class="shop-container container">
+                <div class="box">
+                   <img class="product-img" src="D:\ASM_Web\img\1.jpg" alt="">
+                   <h3 class="product-title">Mười người da đen nhỏ</h3>
+                   <span class="price">$10.00</span>
+                   <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <div class="box">
+                    <img class="product-img" src="D:\ASM_Web\img\2.jpeg" alt="">
+                    <h3 class="product-title">Vũ khí hoàn hảo</h3>
+                    <span class="price">$10.00</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                 </div>
+                 <div class="box">
+                    <img class="product-img" src="D:\ASM_Web\img\3.webp" alt="">
+                    <h3 class="product-title">Số đỏ</h3>
+                    <span class="price">$10.99</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                 </div>
+                 <div class="box">
+                    <img class="product-img" src="D:\ASM_Web\img\4.jpg" alt="">
+                    <h3 class="product-title">Vợ nhặt</h3>
+                    <span class="price">$1.99</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                 </div>
+                 <div class="box">
+                    <img class="product-img" src="D:\ASM_Web\img\5.jpg" alt="">
+                    <h3 class="product-title">Vũ bão</h3>
+                    <span class="price">$9.99</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                 </div>
+                 <div class="box">
+                    <img class="product-img" src="D:\ASM_Web\img\6.jpg" alt="">
+                    <h3 class="product-title">Người kép già</h3>
+                    <span class="price">$8.99</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                 </div>
+                 <div class="box">
+                    <img class="product-img" src="D:\ASM_Web\img\8.jpg" alt="">
+                    <h3 class="product-title">Đi tìm thanh âm đồng vọng</h3>
+                    <span class="price">$9.99</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                 </div>
+                 <div class="box">
+                    <img class="product-img" src="D:\ASM_Web\img\9.jpg" alt="">
+                    <h3 class="product-title">Hồi ức vụn vỡ</h3>
+                    <span class="price">$24.99</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                 </div>
+                 <div class="box">
+                    <img class="product-img" src="D:\ASM_Web\img\10.jpg" alt="">
+                    <h3 class="product-title">Rừng đen</h3>
+                    <span class="price">$14.99</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                 </div>
+            </div>
+        </section>
+        <section class="buds" id="buds">
+            <div class="buds-container container">
+                <div class="bud-text">
+                    <h2>Buy the most</h2>
+                    <h6>100,000 copies have been sold</h6>
+                    <span>$19.95</span>
+                    <p>Our biggest mistake is taking our bad habits and negative emotions out on the people around us, the more we are relatives, the easier it is to hurt them.</p>
+                    <a href="#" class="btn">
+                        <i class="bx bx-shopping-bag"></i>
+                        <span>Buy Now</span>
+                    </a>
+                </div>
+                <div class="buds-img">
+                    <img src="D:\web_design\img\1.webp" alt="" />
+                </div>
+            </div>
+        </section>
+        <!-- Dưới phần footer -->
+<section class="about" id="about">
+    <div class="about-container container">
+        <h2 class="heading">About Us</h2>
+        <p>
+            Welcome to BookShop, your trusted source for all things literary. We are more than just an online bookstore; we are a community of book lovers dedicated to sharing the joy of reading.
+        </p>
+        <p>
+            Our story began with a simple idea: to create a space where people can explore, discover, and connect through the magic of books. Whether you're a seasoned reader or just starting your literary journey, we have something for everyone.
+        </p>
+        <p>
+            Our carefully curated collection spans genres and eras, from timeless classics to contemporary gems. We believe in the transformative power of stories and their ability to inspire, educate, and entertain.
+        </p>
+        <p>
+            At BookShop, we are committed to providing a seamless and enjoyable shopping experience. Dive into our virtual shelves, add your favorite titles to your cart, and embark on a delightful reading adventure.
+        </p>
+        <p>
+            Thank you for being a part of the BookShop family. Happy reading!
+        </p>
+    </div>
+</section>
+
+
+        <section class="footer container">
+            <a href="#" class="logo"><img src="D:\web_design\img\log2.webp" alt="Bookshop Logo"></a>
+            <div class="footer-box">
+                <h2>Genres</h2>
+                <a href="#">Fiction</a>
+                <a href="#">Non-Fiction</a>
+                <a href="#">Mystery</a>
+                <a href="#">Science Fiction</a>
+            </div>
+            <div class="footer-box">
+                <h2>Policy</h2>
+                <a href="#">Return Policy</a>
+                <a href="#">Refund Policy</a>
+                <a href="#">Shipping Policy</a>
+                <a href="#">Terms of Use</a>
+            </div>
+            <div class="footer-box">
+                <h2>More information at</h2>
+                <div class="social">
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+        
+        <div class="copyright">
+            <p>&#169, All Right Reserved</p>
+        </div>
+    </div>
+
+</body>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="D:\1\js\Shop.js"></script>
+</html>

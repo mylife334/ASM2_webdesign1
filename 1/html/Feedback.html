@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="D:\1\css\Feedback.css">
+</head>
+<body>
+
+    <form id="feedbackForm">
+        <img src="D:\web_design\img\log2.webp" alt="">
+        <a href="Shop.html"><i class='bx bx-x'></i></a>
+        <h2>Feedback Form</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="button" onclick="submitFeedback()">Submit Feedback</button>
+    </form>
+
+    <script>
+        function submitFeedback() {
+            // You can add logic here to handle the submitted feedback
+            alert("Feedback submitted successfully!");
+            document.getElementById("feedbackForm").reset();
+        }
+    </script>
+
+</body>
+</html>
